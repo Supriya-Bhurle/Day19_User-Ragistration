@@ -46,6 +46,15 @@ public class UserRegistration {
             System.out.println("invalid");
         }
     }
+    public void validPasswordRule1(){
+        Pattern pattern = Pattern.compile("^[a-z]{8,}+$");
+        Matcher matcher = pattern.matcher("supriyabhurle");
+        if (matcher.matches()){
+            System.out.println("valid");
+        }else {
+            System.out.println("invalid");
+        }
+    }
 }
 
 
