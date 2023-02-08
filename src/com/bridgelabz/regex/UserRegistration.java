@@ -73,5 +73,15 @@ public class UserRegistration {
             System.out.println("invalid");
         }
     }
+
+    public void validPasswordRule4() {
+        Pattern pattern = Pattern.compile("(?=.*[+._@!-])[0-9a-zA-Z@!+_.]{8,}");
+        Matcher matcher = pattern.matcher("Supriya@13456");
+        if (matcher.matches()) {
+            System.out.println("valid");
+        } else {
+            System.out.println("invalid");
+        }
+    }
 }
 
