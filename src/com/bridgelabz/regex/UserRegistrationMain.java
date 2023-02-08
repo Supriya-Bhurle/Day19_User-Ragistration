@@ -6,5 +6,6 @@ public class UserRegistrationMain {
         regex.validFirstName();
         regex.validLastName();
         regex.validEmail();
+        regex.validMobileNumber();
     }
 }

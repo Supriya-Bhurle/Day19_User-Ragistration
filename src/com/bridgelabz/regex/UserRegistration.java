@@ -35,6 +35,17 @@ public class UserRegistration {
             System.out.println("false");
         }
     }
+
+    public void validMobileNumber(){
+
+        Pattern pattern = Pattern.compile( "^(91)( )[6-9]{1}[0-9]{9}$");
+        Matcher matcher = pattern.matcher("91 9359244417");
+        if (matcher.matches()){
+            System.out.println("valid");
+        }else {
+            System.out.println("invalid");
+        }
+    }
 }
 
 
