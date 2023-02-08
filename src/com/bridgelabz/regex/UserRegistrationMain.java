@@ -5,5 +5,6 @@ public class UserRegistrationMain {
         UserRegistration regex = new UserRegistration();
         regex.validFirstName();
         regex.validLastName();
+        regex.validEmail();
     }
 }
