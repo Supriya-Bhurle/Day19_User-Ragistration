@@ -18,7 +18,10 @@ public class UserRegistrationMain {
         System.out.println("Password Rule 1 :");
         regex.validPasswordRule1();
         System.out.println();
-        System.out.println("Password Rule 2");
+        System.out.println("Password Rule 2 :");
         regex.validPasswordRule2();
+        System.out.println();
+        System.out.println("Password Rule 3 :");
+        regex.validPasswordRule3();
     }
 }
