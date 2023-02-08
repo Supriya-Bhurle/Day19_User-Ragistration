@@ -25,6 +25,16 @@ public class UserRegistration {
             System.out.println("invalid");
         }
     }
+    public void  validEmail(){
+
+        Pattern pattern = Pattern.compile("^([a-zA-Z0-9.]+)@([a-zA-Z0-9.]+).([a-zA-Z]{2,5})$");
+        Matcher matcher = pattern.matcher("supriyabhurle09@gmail.com");
+        if (matcher.matches()){
+            System.out.println("true");
+        }else {
+            System.out.println("false");
+        }
+    }
 }
 
 
